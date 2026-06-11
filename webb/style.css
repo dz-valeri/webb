@@ -1,0 +1,168 @@
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+@font-face {
+  font-family: "pirveli";
+  src: url(fonts/bpg_boxo-boxo.ttf);
+}
+@font-face {
+  font-family: "meore";
+  src: url(fonts/alk-life-webfont.ttf);
+}
+
+body{
+    background:#f4f4f4;
+
+}
+
+nav{
+    background:#222;
+    color:white;
+    padding:20px 50px;
+    font-family: "pirveli";
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:20px;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+}
+nav a:hover{
+    color: rgb(23, 71, 202);
+}
+
+.baneri{
+    font-family: "meore";
+    text-align:center;
+    padding:80px 20px;
+    font-size: 60px;
+    background-image: 
+    url("images/bc_image.webp");
+
+    background-size:cover;
+    background-position:center;
+    color:white;
+}
+
+
+.baneri h1{
+    color: #000000;
+    margin-bottom:10px;
+    font-size:40px;
+}
+
+.baneri p{
+    color: #000000;
+    margin-bottom:20px;
+}
+
+.baneri button{
+    padding:12px 25px;
+    border:none;
+    background:#222;
+    color:white;
+    cursor:pointer;
+}
+
+.active{
+    color:#4da6ff;
+}
+
+.iframe{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding: 20px;
+}
+
+.products{
+    font-family: "pirveli";
+    width:80%;
+    margin:50px auto;
+    display:flex;
+    flex-wrap:wrap;
+    gap:25px;
+}
+
+
+.product{
+    background:white;
+    padding:20px;
+    text-align:center;
+    border-radius:8px;
+    flex: 1;
+    min-width: 300px;
+    transition: 0.3s;
+}
+
+.product img{
+    width:100%;
+    margin-bottom:15px;
+}
+.product :hover{
+    transform: translateY(-8px);
+    
+}
+.product h3{
+    margin-bottom:10px;
+}
+
+.product p{
+    color:#1e22ff;
+    font-size:22px;
+    font-weight:bold;
+}
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+.btn{
+    display:inline-block;
+    background-color:#2563eb;
+    color:white;
+    text-decoration:none;
+    padding:15px 24px;
+    border-radius:6px;
+    font-weight:bold;
+    margin-top: 20px;
+}
+
+.btn:hover{
+    background-color:#1d4ed8;
+}
+.container{
+    width:800px;
+    margin:80px auto;
+    padding:30px;
+    background:#39ad5c;
+    border-radius:12px;
+    box-shadow:0 10px 30px;
+}
+
+.container h1{
+    margin-bottom:20px;
+    font-size:32px;
+    color:#60a5fa;
+}
+
+.container p{
+    color:#cbd5e1;
+}
