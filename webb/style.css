@@ -148,6 +148,21 @@ footer{
 .btn:hover{
     background-color:#1d4ed8;
 }
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 28px;
+}
+
+.social-links a {
+  text-decoration: none;
+  transition: transform 0.2s;
+}
+
+.social-links a:hover {
+  transform: scale(1.2);
+}
 .container{
     width:800px;
     margin:80px auto;
